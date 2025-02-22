@@ -10,3 +10,6 @@ crea ramas y trabaja en ellas realizando algún cambio en el script
 borra ramas creadas.
 
 Cree este repositorio en GitHub.
+* En Signo + , esquina superior derecha, elegimos crear Repositorio.
+* 
+
