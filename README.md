@@ -20,5 +20,7 @@ En Visual Studio: Cree una carpeta para el WorkSpace y coloque 4 archivos HTML
 *                                                       :  La URL https://github.com/barbusanofelix/HTML_PruebaRamas.git la copiamos de GitHub.
 * Enviamos el repositorio Local al remoto en GitHub     :  git push -u origin master         ( Al ir a GitHub ya vemos el repositorio)
 *                                               : 
- 
+
+Creare RamaUno 
+git branch RamaUno 
 
