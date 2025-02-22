@@ -48,4 +48,30 @@ git branch RamaDos
     <p> La idea era suministrar el dinero y edad</p>
     <p> Cree RamaDos y añadi esta linea al master ( con Esta 3 p) </p>
 
+Merge:
+git checkout master
+git merge RamaUno
+git merge RamaDos
+
+Borramos las Ramas en el local 
+git branch -d RamaDos
+git branch -d RamaUno
+
+Hacemos el push:
+git add .
+git push
+
+Borramos las ramas que habia subido antes al remoto:
+git push origin --delete RamaUno
+git push origin --delete RamaDos
+
+Al ir al remoto veremos que las Ramas ya no existen y ahora en el master,ç
+el archivo 02_CompraCocheParaHTML.html tiene:
+
+<h1>¡Hola, mundo!</h1>
+    <p>Este es un ejemplo de cómo incluir JavaScript en HTML.</p>
+    <p> La idea era suministrar el dinero y edad</p>
+    <p> Aqui cree la RamaUno y añadi esta linea</p>
+    <p>Aqui me puse en ramaUno y añadi esta linea</p>
+    <p> Cree RamaDos y añadi esta linea al master ( con Esta 3 p) </p>
 
