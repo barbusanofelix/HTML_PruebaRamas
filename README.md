@@ -11,5 +11,14 @@ borra ramas creadas.
 
 Cree este repositorio en GitHub.
 * En Signo + , esquina superior derecha, elegimos crear Repositorio.
-* 
+
+En Visual Studio: Cree una carpeta para el WorkSpace y coloque 4 archivos HTML
+* Abrimos el terminal e iniciamos el repositorio local  :  git init
+* Pasamos los archivos al staging Area con              :  git add .
+* Hacemos un commit de los 4 archivos                   :  git commit -m "V0.0.1"
+* Conectamos el repositorio remoto con                  :  git remote add origin https://github.com/barbusanofelix/HTML_PruebaRamas.git
+*                                                       :  La URL https://github.com/barbusanofelix/HTML_PruebaRamas.git la copiamos de GitHub.
+* Enviamos el repositorio Local al remoto en GitHub     :  git push -u origin master         ( Al ir a GitHub ya vemos el repositorio)
+*                                               : 
+ 
 
