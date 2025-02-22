@@ -24,3 +24,28 @@ En Visual Studio: Cree una carpeta para el WorkSpace y coloque 4 archivos HTML
 Creare RamaUno 
 git branch RamaUno 
 
+Para subir la RamaUno, por primera vez, hay que usar:
+git push -u origin RamaUno
+Cuando lo subi en 02_CompraCocheParaHTML.html habia añadido 
+<h1>¡Hola, mundo!</h1>
+    <p>Este es un ejemplo de cómo incluir JavaScript en HTML.</p>
+    <p> La idea era suministrar el dinero y edad</p>
+    <p> Aqui cree la RamaUno y añadi esta linea</p>
+    <p>Aqui me puse en ramaUno y añadi esta linea</p> 
+
+    Mientras que en Master :
+    <h1>¡Hola, mundo!</h1>
+    <p>Este es un ejemplo de cómo incluir JavaScript en HTML.</p>
+    <p> La idea era suministrar el dinero y edad</p>
+
+
+Cree RamaDos
+git branch RamaDos
+
+ En CompraCocheParaHTML los comentarios sera:
+   <h1>¡Hola, mundo!</h1>
+    <p>Este es un ejemplo de cómo incluir JavaScript en HTML.</p>
+    <p> La idea era suministrar el dinero y edad</p>
+    <p> Cree RamaDos y añadi esta linea al master ( con Esta 3 p) </p>
+
+
